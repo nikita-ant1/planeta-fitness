@@ -21,7 +21,7 @@
 
 <style scoped lang="scss">
   .nav-link {
-    font-weight: 18px;
+    font-size: 18px;
     line-height: 1;
     font-weight: 400;
     letter-spacing: var(--lett-sp-sm);

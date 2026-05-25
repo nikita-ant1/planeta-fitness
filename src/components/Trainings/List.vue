@@ -100,7 +100,8 @@
     padding: 10px 0;
     color: #DDDDDD;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.2;
     font-weight: 400;
     letter-spacing: var(--lett-sp-sm);
     transition: transform 150ms;

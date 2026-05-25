@@ -70,8 +70,8 @@
   }
 
   .title {
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 1;
     letter-spacing: var(--lett-sp-sm);
     flex-grow: 1;

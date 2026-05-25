@@ -15,9 +15,10 @@
 }
 
 .h2 {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 60px;
   line-height: 1;
+  letter-spacing: var(--lett-sp-sm);
 
   @include screen.lg {
     font-size: 50px;

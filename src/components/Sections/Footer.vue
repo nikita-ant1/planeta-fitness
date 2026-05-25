@@ -40,7 +40,7 @@
 
     &__address {
       font-weight: 400;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 1;
       letter-spacing: var(--lett-sp-sm);
       margin-bottom: 30px;
