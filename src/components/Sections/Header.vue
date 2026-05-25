@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="wrap">
         <a class="logo-wrap" href="https://ufa.planeta-mall.ru/" target="_blank">
-          <img class="logo" src="@/assets/images/logo.svg" width="160" height="61" alt="Логотип Планета">
+          <img class="logo" src="@/assets/images/logo.svg" width="184" height="59" alt="Логотип Планета">
         </a>
         <NavMenu v-if="grid.lg" />
         <button v-else class="btn-burger" @click="showed = true">
@@ -44,18 +44,18 @@
   }
 
   .logo-wrap {
-    width: 160px;
+    width: 184px;
 
     &:hover {
       opacity: 0.7;
     }
 
     @include md {
-      width: 120px;
+      width: 160px;
     }
 
     @include sm {
-      width: 91px;
+      width: 143px;
     }
   }
 

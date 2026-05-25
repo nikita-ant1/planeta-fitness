@@ -6,7 +6,7 @@
           <div class="body">
             <div class="head">
               <a class="logo" href="https://ufa.planeta-mall.ru/" target="_blank">
-                <img class="logo-img" src="@/assets/images/logo-white.svg" width="91" height="35" alt="Логотип Планета">
+                <img class="logo-img" src="@/assets/images/logo-white.svg" width="143" height="46" alt="Логотип Планета">
               </a>
               <button class="btn-close" @click="$emit('close')">
                 <BaseIcon name="close" fit />
@@ -121,10 +121,10 @@
   }
 
   .logo {
-    width: 120px;
+    width: 160px;
 
     @include sm {
-      width: 91px;
+      width: 143px;
     }
 
     &-img {

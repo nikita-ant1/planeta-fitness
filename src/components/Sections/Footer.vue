@@ -16,7 +16,7 @@
           </div>
         </div>
         <a class="logo" href="https://ufa.planeta-mall.ru/" target="_blank">
-          <img class="logo__img" width="113" height="43" src="@/assets/images/logo.svg" alt="Логотип планета">
+          <img class="logo__img" width="184" height="59" src="@/assets/images/logo.svg" alt="Логотип планета">
         </a>
       </div>
     </div>
@@ -67,7 +67,15 @@
   }
 
   .logo {
-    width: 141px;
+    width: 184px;
+
+    @include md {
+      width: 160px;
+    }
+
+    @include sm {
+      width: 143px;
+    }
 
     &:hover {
       opacity: 0.7;
