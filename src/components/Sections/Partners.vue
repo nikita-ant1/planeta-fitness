@@ -33,7 +33,7 @@
 
 <style scoped lang="scss">
   .title {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
 
   .items {

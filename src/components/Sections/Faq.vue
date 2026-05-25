@@ -51,6 +51,6 @@
 
 <style scoped lang="scss">
   .title {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
   }
 </style>

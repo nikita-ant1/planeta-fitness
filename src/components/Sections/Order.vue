@@ -230,7 +230,7 @@
 
     &__title {
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 45px;
     }
 
     &__grid {

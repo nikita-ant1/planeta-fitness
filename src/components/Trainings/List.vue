@@ -82,7 +82,7 @@
 
   .item {
     & + & {
-      margin-top: 12px;
+      margin-top: 15px;
 
       @include md {
         margin-top: 5px;
