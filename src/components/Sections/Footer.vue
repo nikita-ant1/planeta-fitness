@@ -8,11 +8,8 @@
             <p>г. Уфа, ул. Энтузиастов, 20</p>
           </div>
           <div class="soc-items">
-            <a class="soc-item soc-item--vk" href="https://vk.com/trc_planeta_ufa" target="_blank"></a>
-            <a class="soc-item soc-item--ok" href="https://ok.ru/group/57048741838907" target="_blank"></a>
-            <a class="soc-item soc-item--rt" href="https://rutube.ru/channel/24694861/" target="_blank"></a>
             <a class="soc-item soc-item--tg" href="https://t.me/trc_planeta_ufa" target="_blank"></a>
-            <a class="soc-item soc-item--you" href="https://www.youtube.com/channel/UCwQ9kwTOFChkJKrMOMqJ-pg" target="_blank"></a>
+            <a class="soc-item soc-item--max" href="https://max.ru/trc_planeta_ufa" target="_blank"></a>
           </div>
         </div>
         <a class="logo" href="https://ufa.planeta-mall.ru/" target="_blank">
@@ -100,6 +97,10 @@
 
     &:hover {
       opacity: 0.8;
+    }
+
+    &--max {
+      background-image: url('@/assets/images/soc/max.svg');
     }
 
     &--vk {
