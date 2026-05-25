@@ -286,20 +286,16 @@
 
   .working-time {
     display: flex;
-    gap: 20px;
+    gap: 16px;
     margin-bottom: 40px;
 
     @include md {
       margin-bottom: 24px;
     }
 
-    @include sm {
-      gap: 15px;
-    }
-
     &__badge {
       width: 100%;
-      max-width: 220px;
+      max-width: 250px;
 
       @include md {
         max-width: 100%;
