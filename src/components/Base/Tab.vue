@@ -32,16 +32,17 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1;
+    letter-spacing: var(--lett-sp-sm);
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 
     &:hover {
       opacity: 0.7;
     }
 
     &--default {
-      --text-color: #2E2E2E;
+      --text-color: #212123;
       --border-color: #B5B5B5;
       --bg-color: var(--color-white);
       --circle-color: v-bind(color);
