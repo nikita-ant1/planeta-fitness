@@ -52,5 +52,9 @@
 <style scoped lang="scss">
   .title {
     margin-bottom: 45px;
+
+    @include sm {
+      margin-bottom: 24px;
+    }
   }
 </style>

@@ -231,6 +231,10 @@
     &__title {
       text-align: center;
       margin-bottom: 45px;
+
+      @include sm {
+        margin-bottom: 24px;
+      }
     }
 
     &__grid {
@@ -291,6 +295,10 @@
 
     @include md {
       margin-bottom: 24px;
+    }
+
+    @include sm {
+      gap: 8px;
     }
 
     &__badge {

@@ -45,6 +45,10 @@
 <style scoped lang="scss">
   .title {
     margin-bottom: 45px;
+
+    @include sm {
+      margin-bottom: 30px;
+    }
   }
 
   .items {

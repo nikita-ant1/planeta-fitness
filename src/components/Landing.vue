@@ -55,10 +55,10 @@
 
 <style scoped lang="scss">
   .section-main {
-    margin-bottom: 35px;
+    margin-bottom: 75px;
 
     @include md {
-      margin-bottom: 25px;
+      margin-bottom: 50px;
     }
   }
 
