@@ -24,15 +24,20 @@
 <style scoped lang="scss">
   .base-btn {
     display: inline-block;
-    padding: 18px 30px;
+    padding: 20px 30px;
     border-radius: 30px;
     background: var(--color-secondary);
     letter-spacing: var(--lett-sp-sm);
-    color: #000000;
-    font-size: 20px;
+    color: var(--color-text-dark);
+    font-size: 24px;
     line-height: 1;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
+
+    @include sm {
+      padding: 16px 20px;
+      font-size: 22px;
+    }
 
     &:hover {
       background: var(--color-secondary-hover);
