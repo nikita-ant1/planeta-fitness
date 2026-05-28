@@ -134,6 +134,10 @@
 
   .order-btn {
     width: 100%;
-    max-width: 200px;
+    max-width: 365px;
+
+    @include sm {
+      max-width: 100%;
+    }
   }
 </style>

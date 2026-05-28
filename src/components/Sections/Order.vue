@@ -316,8 +316,11 @@
         }
 
         @include md {
-          font-size: 14px;
           padding: 16px;
+        }
+
+        @include sm {
+          font-size: 14px;
         }
       }
     }
