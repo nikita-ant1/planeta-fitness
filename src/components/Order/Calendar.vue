@@ -41,7 +41,7 @@
 
 <style lang="scss">
   .app-calendar {
-    --vc-font-family: 'Inter', sans-serif;
+    --vc-font-family: 'TTturns', sans-serif;
     --vc-day-content-disabled-color: #C1C1C1;
     width: 100%;
     box-shadow: 0 4px 35px 0 rgba(170, 170, 170, 0.03);
